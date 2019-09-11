@@ -1,3 +1,4 @@
+
 #!/usr/bin/env sh
 
 # 确保脚本抛出遇到的错误
@@ -14,6 +15,6 @@ git add -A
 git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO> https://github.com/ameibj/ameibj.github.io
-git push -f git@github.com:<ameibj>/<ameibj.github.io>.git master:Vuepress
+git push -f 'git@github.com:ameibj/ameibj.github.io.git master:vueBlog
 
 cd -
