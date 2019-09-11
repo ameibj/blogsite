@@ -10,7 +10,7 @@ module.exports = {
         ['meta', {name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no'}]
         // ['link', {rel: 'manifest', href: '/manifest.json'}],
     ],
-    base: '/', // 这是部署到github相关的配置 下面会讲
+    base: '/blogsite/', // 这是部署到github相关的配置 下面会讲
     markdown: {
         lineNumbers: true // 代码块显示行号
     },
